@@ -1,0 +1,56 @@
+\documentclass{beamer}
+
+% insert my preamble
+\input{preamble.tex}
+
+
+\begin{document}
+
+\title{%
+\begin{tabular}{c}
+\\ 
+The Title
+ \\
+{\small Author 1}\\
+{\small Author 2}
+\end{tabular}%
+}
+
+
+
+
+% First Page
+\frame{\titlepage} 
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+\begin{midi}
+\item<1-> Consumers suffer from \bred{shocks}.\\
+{\small Unemployment, medical expenses, house price crash, divorce, etc.}
+\item<2-> Bankruptcy and Mortgage Default provide \redbox{insurance} against shocks.
+\begin{itemize}
+\item In the US, Bankruptcy and default institutions vary greatly by state.
+\item Bankruptcy provides different incentives depending on home equity and state law.
+\item Must model \cyanbox{housing} to understand bankruptcy policy reforms.
+\end{itemize}
+\item<3-> \bblue{Credit supply}, on the other hand, suffers from \bluebox{moral hazard}.
+\end{midi}
+\end{frame}
+
+
+
+
+
+
+
+
+
+\begin{frame}[allowframebreaks]{References}
+        % \frametitle{References}
+		\bibliographystyle{unsrtnat}
+		\bibliography{yourbibfile.bib}
+\end{frame}
+
+
+\end{document}
